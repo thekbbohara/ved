@@ -1,81 +1,68 @@
-# Turborepo starter
 
-This is an official starter Turborepo.
+# Ved: Vim Editor - Cloud IDE
 
-## Using this example
+Ved is a cloud-based Integrated Development Environment (IDE) designed to bring the power and efficiency of Vim to the cloud. Whether you're a seasoned Vim user or new to the world of keyboard-centric development, Ved provides a seamless and productive environment to write, edit, and manage code—all in your browser.
 
-Run the following command:
+## Key Features
 
-```sh
-npx create-turbo@latest
-```
+- **Vim Mode**: Built with Vim keybindings for efficient and fast coding. Whether you're editing code or navigating files, Ved ensures you can work as quickly as possible with the familiar Vim commands.
+- **Cloud-based**: Access your development environment from anywhere. No installation required—just open your browser and start coding.
+- **Multi-language Support**: Ved supports a wide range of programming languages out of the box, including Python, JavaScript, Go, Ruby, and more.
+- **Integrated Terminal**: Run shell commands and interact with your code directly within the IDE.
+- **Real-time Collaboration**: Collaborate with your team in real-time with a shared workspace.
+- **Auto-Save**: Never worry about losing your progress—your code is auto-saved as you work.
+- **Customizable**: Tailor your environment to fit your workflow, with the ability to adjust settings, themes, and more.
 
-## What's inside?
+## Getting Started
 
-This Turborepo includes the following packages/apps:
+### Prerequisites
 
-### Apps and Packages
+- All you need is a modern web browser (Chrome, Firefox, Edge, etc.) and an internet connection.
+- No installation or setup required—Ved runs entirely in the cloud.
 
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `@repo/ui`: a stub React component library shared by both `web` and `docs` applications
-- `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
+### Usage
 
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+1. **Sign Up**: Create an account by visiting [Ved's website](#).
+2. **Create a New Project**: Once logged in, create a new project or open an existing one from your dashboard.
+3. **Start Coding**: Begin writing your code with Vim keybindings, enjoying the efficiency of a fully cloud-based environment.
 
-### Utilities
+### Vim Mode
 
-This Turborepo has some additional tools already setup for you:
+Ved brings the full power of Vim to the cloud, including:
 
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
+- **Normal Mode**: For navigating and editing your code.
+- **Insert Mode**: For writing code.
+- **Command Mode**: For executing commands like search, replace, and more.
 
-### Build
+If you're new to Vim, we recommend checking out online tutorials to get familiar with the basic commands.
 
-To build all apps and packages, run the following command:
+## Contributing
 
-```
-cd my-turborepo
-pnpm build
-```
+We welcome contributions to Ved! If you'd like to report a bug, suggest a feature, or contribute to the codebase, please follow these steps:
 
-### Develop
+1. Fork this repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Commit your changes (`git commit -m 'Add new feature'`).
+4. Push to your branch (`git push origin feature-branch`).
+5. Open a pull request.
 
-To develop all apps and packages, run the following command:
+For detailed contribution guidelines, please refer to the [CONTRIBUTING.md](CONTRIBUTING.md).
 
-```
-cd my-turborepo
-pnpm dev
-```
+## License
 
-### Remote Caching
+Ved is licensed under the **Creative Commons Attribution-NonCommercial 4.0 International License** (CC BY-NC 4.0).
 
-Turborepo can use a technique known as [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
+- You are free to use, modify, and distribute Ved for **non-commercial purposes**.
+- You cannot use Ved or its derivatives for commercial purposes without prior written consent from the authors.
 
-By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
+For more details, please refer to the [LICENSE](LICENSE) file.
 
-```
-cd my-turborepo
-npx turbo login
-```
+## Acknowledgements
 
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
+- Special thanks to the Vim community for the inspiration and design principles.
+- Thanks to all contributors who have made Ved better!
 
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your Turborepo:
+---
 
-```
-npx turbo link
-```
+Enjoy coding with Ved—your cloud-based Vim editor!
 
-## Useful Links
-
-Learn more about the power of Turborepo:
-
-- [Tasks](https://turbo.build/repo/docs/core-concepts/monorepos/running-tasks)
-- [Caching](https://turbo.build/repo/docs/core-concepts/caching)
-- [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching)
-- [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
-- [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
-- [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
